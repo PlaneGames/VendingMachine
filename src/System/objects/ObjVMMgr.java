@@ -245,10 +245,10 @@ public class ObjVMMgr extends Object {
 			removeCoinNum(100, changeMoneyNum100);
 			
 			enteredMoney -= 50 * changeMoneyNum50;
-			removeCoinNum(100, changeMoneyNum50);
+			removeCoinNum(50, changeMoneyNum50);
 			
 			enteredMoney -= 10 * changeMoneyNum10;
-			removeCoinNum(100, changeMoneyNum10);
+			removeCoinNum(10, changeMoneyNum10);
 			
 			System.out.println("LEFT 1000 WON NUMBER : " + getCoinNum(1000));
 			System.out.println("LEFT 500 WON NUMBER : " + getCoinNum(500));
